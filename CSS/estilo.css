@@ -1,0 +1,119 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:  #E09F29;
+    background-image: linear-gradient(to bottom right,#E0A028, #4e3b11 );
+    color: #332F28;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:  2px;
+    text-align: center;
+    margin-left:10%;
+    margin-right: 10%;
+}
+strong{
+    color: #ffff;
+}
+span{
+    color: #ffff;
+}
+p{
+    text-align: center;
+}
+.BemVindo{
+    padding: 10px;
+    border:1px ;
+    border-radius:15px;
+    flex-direction:column;
+    background-color: #B58C3F;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    
+}
+.resume{
+    display:flex;
+    width:  auto;
+    justify-content:center;
+    padding: 10px;
+    gap: 10px;
+    
+}
+/*.resume{animation: fadeIn 2s infinite; }
+    @keyframes fadeIn{
+        0%{opacity: 0;}
+        50%{ opacity: .50;}
+        100% {opacity: 100;}
+    }*/
+.Apresentacao{
+    height: fit-content;
+    padding: 50px;
+    margin: 2px;
+    margin-top: 70px;
+    width: 250px;
+    border-radius:15px;
+    background-color: #B58C3F;
+    text-align: center;
+    font-size: large;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Flag{
+    font-size: large;
+    height: fit-content;
+    padding: 50px;
+    margin: 2px;
+    margin-top: 70px;
+    width: 250px;
+    border-radius:15px;
+    background-color: #B58C3F;
+    text-align: center;
+    order: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Formacao, .Extras, footer{
+    clear:both;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Formacao{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 10px;
+    padding: 50px;
+    border-radius:15px;
+    background-color: #B58C3F;
+    margin: 10px,10px,10px,10px;
+    margin: 20px;
+}
+.Tecnicos, .Superior,.EXcurriculares, .volun, .projectos{
+    color:#332F28;
+    width: auto;
+    height: auto;
+    position: center;
+    padding: 2%;
+    font-size: large;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.Extras{
+    /*padding: 50px;
+    border-radius:15px;
+    background-color: #B58C3F;
+    margin: 20px;
+    text-align: center;*/
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 100px;
+    padding: 50px;
+    border-radius:15px;
+    background-color: #B58C3F;
+    margin: 10px,10px,10px,10px;
+    margin: 20px;
+
+}
+footer{
+    border-radius:15px;
+    padding: 10px;
+    background-color: #B58C3F;
+    margin: 20px;
+}
